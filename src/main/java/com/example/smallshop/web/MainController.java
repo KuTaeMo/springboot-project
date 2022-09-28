@@ -12,6 +12,6 @@ public class MainController {
     @GetMapping("/")
     public String viewMain(Model model){
         model.addAttribute("msg","main page");
-        return "login";
+        return "index";
     }
 }
