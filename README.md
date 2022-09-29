@@ -17,7 +17,7 @@
 * BootStrap
 
 ### DB 정보
-create user 'bootpj'@'%' identified by 'boot1010';
-GRANT ALL PRIVILEGES ON . TO 'bootpj'@'%';
-create database bootproject;
-use bootproject;
+create user 'bootpj'@'%' identified by 'boot1010';  
+GRANT ALL PRIVILEGES ON . TO 'bootpj'@'%';  
+create database bootproject;  
+use bootproject;  
