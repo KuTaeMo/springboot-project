@@ -25,7 +25,7 @@ public class MemberDEntity {
     private String mbrNm;
 
     @Column(nullable = false)
-    private Date phoneNum;
+    private String phoneNum;
 
     @Column(nullable = false)
     private Date brthDt;
@@ -35,7 +35,7 @@ public class MemberDEntity {
     @Column(nullable = false)
     private Date lastMdfcnDt;
 
-    public MemberDEntity(String mbrKey, String mbrId, String mbrNm, Date phoneNum, Date brthDt, Date frstRegDt, Date lastMdfcnDt) {
+    public MemberDEntity(String mbrKey, String mbrId, String mbrNm, String phoneNum, Date brthDt, Date frstRegDt, Date lastMdfcnDt) {
         this.mbrKey = mbrKey;
         this.mbrId = mbrId;
         this.mbrNm = mbrNm;

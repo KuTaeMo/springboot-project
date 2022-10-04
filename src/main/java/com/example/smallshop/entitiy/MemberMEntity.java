@@ -19,6 +19,9 @@ public class MemberMEntity {
     private String mbrTypeCd;
 
     @Column(nullable = false)
+    private String mbrStatCd;
+
+    @Column(nullable = false)
     private String lgnPswd;
 
     @Column(nullable = false)
@@ -27,9 +30,10 @@ public class MemberMEntity {
     @Column(nullable = false)
     private Date lastMdfcnDt;
 
-    public MemberMEntity(String mbrKey, String mbrTypeCd, String lgnPswd, Date frstRegDt, Date lastMdfcnDt) {
+    public MemberMEntity(String mbrKey, String mbrTypeCd, String mbrStatCd, String lgnPswd, Date frstRegDt, Date lastMdfcnDt) {
         this.mbrKey = mbrKey;
         this.mbrTypeCd = mbrTypeCd;
+        this.mbrStatCd = mbrStatCd;
         this.lgnPswd = lgnPswd;
         this.frstRegDt = frstRegDt;
         this.lastMdfcnDt = lastMdfcnDt;
