@@ -1,7 +1,8 @@
 package com.example.smallshop.controller;
 
+import com.example.smallshop.entitiy.MemberDEntity;
 import com.example.smallshop.entitiy.MemberMEntity;
-import com.example.smallshop.repository.MemberMRepository;
+import com.example.smallshop.repository.MemberDRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -12,26 +13,26 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/memberM")
-public class MemberMController {
+@RequestMapping("/memberD")
+public class MemberDController {
 
-    private final MemberMRepository memberMRepository;
+    private final MemberDRepository memberDRepository;
 
     /**
      * 멤버 All 조회
      * @return
      */
-    @GetMapping("findAllMemberM")
-    public List<MemberMEntity> findAllMemberM(){
-        return memberMRepository.findAll();
+    @GetMapping("findAllMemberD")
+    public List<MemberDEntity> findAllMemberD(){
+        return memberDRepository.findAll();
     }
 
     /**
      * 멤버 단건 조회
      * @return
      */
-    @GetMapping("findMemberM/{id}")
-    public MemberMEntity findMemberM(@PathVariable String id){
-        return memberMRepository.findById(id).orElse(null);
+    @GetMapping("findMemberD/{id}")
+    public MemberDEntity findMemberD(@PathVariable String id){
+        return memberDRepository.findById(id).orElse(null);
     }
 }
