@@ -1,7 +1,6 @@
-package com.example.smallshop.repository;
+package com.example.smallshop.domain.memberD;
 
-import com.example.smallshop.entitiy.MemberDEntity;
-import com.example.smallshop.entitiy.MemberMEntity;
+import com.example.smallshop.domain.memberD.MemberDEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

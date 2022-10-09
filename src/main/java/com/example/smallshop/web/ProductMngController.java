@@ -1,9 +1,9 @@
-package com.example.smallshop.controller;
+package com.example.smallshop.web;
 
 
 
-import com.example.smallshop.entitiy.ProductMngEntity;
-import com.example.smallshop.repository.ProductMngRepository;
+import com.example.smallshop.domain.productMng.ProductMngEntity;
+import com.example.smallshop.domain.productMng.ProductMngRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

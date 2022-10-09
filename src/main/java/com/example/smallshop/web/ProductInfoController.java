@@ -1,8 +1,8 @@
-package com.example.smallshop.controller;
+package com.example.smallshop.web;
 
 
-import com.example.smallshop.entitiy.ProductInfoEntity;
-import com.example.smallshop.repository.ProductInfoRepository;
+import com.example.smallshop.domain.productInfo.ProductInfoEntity;
+import com.example.smallshop.domain.productInfo.ProductInfoRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,4 +1,4 @@
-package com.example.smallshop.entitiy;
+package com.example.smallshop.domain.productInfo;
 
 import lombok.AccessLevel;
 import lombok.Builder;

@@ -1,6 +1,6 @@
-package com.example.smallshop.repository;
+package com.example.smallshop.domain.productInfo;
 
-import com.example.smallshop.entitiy.ProductInfoEntity;
+import com.example.smallshop.domain.productInfo.ProductInfoEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
